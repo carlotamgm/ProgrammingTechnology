@@ -1,0 +1,50 @@
+Apéndice: Definición de diversos L–Systems
+Curva de Koch
+Reglas: F → F+F--F+F
+Axioma: F
+Distancia: 1
+Angulo: 60 grados
+Curva de Koch cuadrada
+Reglas: F → F+F-F-F+F
+Axioma: F
+Distancia: 1
+Angulo: 90 grados
+Koch Snowflake
+Reglas: F → F-F++F-F
+Axioma: F++F++F
+Distancia: 1
+Angulo: 60 grados
+Koch Anti–Snowflake
+Reglas: F → F+F--F+F
+Axioma: F++F++F
+Distancia: 1
+Angulo: 60 grados
+4
+Tecnología de Programación Práctica 5
+Isla de Minkowski
+Reglas: F → F+F-F-FF+F+F-F
+Axioma: F+F+F+F
+Distancia: 1
+Angulo: 90 grados
+Triángulo de Sierpinsky
+Reglas: F → F-G+F+G-F
+G → GG
+Axioma: F-G-G
+Distancia: 1
+Angulo: 120 grados
+Sierpinsky Arrowhead
+Reglas: F → G-F-G
+G → F+G+F
+Axioma: F
+Distancia: 1
+Angulo: 60 grados
+Curva de Hilbert
+Reglas: f → -g>+f>f+>gg → +f>-g>g->f+
+Axioma: f
+Distancia: 1
+Angulo: 90 grados
+Curva de Gosper
+Reglas: F → F-G--G+F++FF+GG → +F-GG--G-F++F+G
+Axioma: F
+Distancia: 1
+Angulo: 60 grados
